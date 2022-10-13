@@ -1,0 +1,357 @@
+:root{
+    --FuentePrincipal: 'Salsa', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--FuentePrincipal);
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.bloque{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.menu-principal{
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+.menu-principal .inicio{
+    background-color:#df3a01;
+    padding: 4px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.menu-principal .contacto{
+    background-color: darkslategrey;
+    padding: 4px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* .menu-principal ul{} */
+
+.menu-principal ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    padding: 15px 20px;
+}
+
+.menu-principal ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+}
+
+.izquierda, .derecha{
+    margin-top: 50px;
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    display: inline-block;
+}
+
+.centrar{
+    width: 80%;
+    height: 550px;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.centrarTres{
+    width: 80%;
+    /* height: 550px; */
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+.izquierda{
+    float: left;
+    text-align: left;
+}
+
+.izquierda p{
+    font-size: 17px;
+}
+
+.izquierda .btn{
+    font-family: var(--FuentePrincipal);
+    margin-top: 10px;
+    background-color: brown;
+    padding: 10px 17px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.izquierda .btn:hover{
+    background-color: black;
+    color: white;
+    transition: all .7s;
+    padding: 11px 20px;
+}
+.derecha{
+    float: right;
+}
+
+.derecha img{
+    max-width: 105%;
+    max-height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeatdd;
+}
+
+.Titulo1{
+    font-size: 60px;
+}
+
+/* Seccion */
+.bloqueDos{
+    height: 620px;
+    padding: 40px 0px;
+}
+
+.subtituloColor{
+    font-size: 21px;
+    font-weight: bold;
+    color: red;
+}
+
+
+.izquierdaDos img{
+    max-width: 120%;
+    max-height: 100%;
+}
+
+
+.bloqueDos .derecha .subtituloColor{
+    font-size: 25px;
+    text-align: left;
+}
+
+.bloqueDos .derecha p{
+    text-align: left;
+    font-size: 17px;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.opcion{
+    width: 44%;
+    /* border: 1px solid black; */
+    margin-bottom: 30px;
+    padding: 7px;
+    border-left: 4px solid #df3a01;
+    border-radius: 7px;
+}
+
+.opcion:hover{
+    background-color: #cd7b5f;
+    color: white;
+    transition: all .7s;
+}
+
+.opcion img{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.opcion h4{
+    margin-top: 10px;
+}
+
+/* Servicios */
+
+.servicios{
+    padding: 50px 0px;
+}
+
+.centrarTres h2{
+    font-size: 35px;
+}
+
+.contenedores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenedores .contenido{
+    width: 45%;
+    height: 160px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #c1c1c1;
+    text-align: left;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 9px;
+}
+
+.contenedores .contenido:hover{
+    background-color: #cd7b5f;
+    color: white;
+    transition: all .7s;
+}
+
+.contenido img{
+    margin-right: 20px;
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+/* Planes */
+
+
+.contenedoresplan{
+    margin-left: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.plan{
+    margin-left: 10px;
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+}
+.plan .titulo-plan{
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #342a27;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    font-family: var(--FuentePrincipal);
+}
+
+.plan img{
+    width: 90%;
+    border-radius: 10px;
+}
+
+.plan img:hover{
+    border-radius: 10px;
+    width: 100%;
+    transition: all .7s;
+}
+
+.plan .btnplan{
+    font-family: var(--FuentePrincipal);
+    background-color: #df3a01;
+    border: none;
+    padding: 10px 50px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.btnplan:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all .7s;
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer h3{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+}
+
+.redes-sociales i{
+    font-size: 30px;
+    margin: 11px;
+    color: white;   
+}
+
+/* Contacto Formulario */
+.form{
+    max-width: 400px;
+    margin: 50px auto;
+}
+.form h2{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form .campos{
+    font-family: var(--FuentePrincipal);
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
+.form .campos{
+    color:black;
+    font-weight:bold;
+    line-height: 22px;
+    padding: 14px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.form .btn{
+    border: none;
+    font-size: 25px;
+    width: 100%;
+    background-color: #df3a01;
+    color: white;
+    border-radius: 10px;
+    font-family: var(--FuentePrincipal);
+    padding: 12px;
+}
+
+.form .btn:hover{
+    background-color: teal;
+    transition: all .8s;
+}
+
+
